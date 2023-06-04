@@ -1,0 +1,7 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:com:example:Machine;1",
+    "@type": "Interface",
+    "displayName": "Machine",
+    "extends": "dtmi:com:example:IAsset;1"
+}    

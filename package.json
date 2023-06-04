@@ -1,0 +1,22 @@
+{
+  "name": "liskov-dtdl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit  --verbose"
+  },
+  "author": "Sergio Contreras Martín",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/dtdl-parser": "^1.0.0-beta.2",
+    "cross-env":"7.0.3",
+    "jest":"29.5.0",
+    "standard":"17.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:IAsset;1",
+  "@type": "Interface",
+  "displayName": "IAsset",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "status",
+      "schema": "string"
+    },
+    {
+      "@type": "Command",
+      "name": "start"
+    },
+    {
+      "@type": "Command",
+      "name": "stop"
+    },
+    {
+      "@type": "Property",
+      "name": "powerConsumption",
+      "schema": "double"
+    }
+  ]
+}
