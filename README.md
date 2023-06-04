@@ -10,18 +10,6 @@ Feel free to modify and extend the project to fit your specific DTDL models and 
 
 The project structure is as follows:
 
-.
-├── ontology
-│   ├── IAsset.json
-│   └── Machine.json
-│   └── Robot.json
-├── __test__
-    └── general.test.js
-    └── machine.test.js
-    └── robot.test.js
-
-
-
 - The ontology directory contains the DTDL interface definitions.
 - The tests directory contains the Jest test file.
 
